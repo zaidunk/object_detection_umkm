@@ -4,13 +4,16 @@
 streamlit>=1.28.0
 
 # Deep learning (CPU-compatible)
-torch>=1.8.0
-torchvision>=0.9.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLOv5 / Ultralytics (required by hubconf.py)
+ultralytics>=8.2.64
 
 # YOLOv5 dependencies
 gitpython>=3.1.30
 matplotlib>=3.3
-numpy>=1.23.5
+numpy>=1.23.5,<2.0
 opencv-python-headless>=4.8.0
 pillow>=10.3.0
 psutil
